@@ -27,7 +27,7 @@ new_string = uppercase_word + my_string[3:]
 
 
 # Exercise 8: Use string interpolation to print out a sentence that contains your number variable
-variable_sentence = "Mi variable de número es: {0}" .format(new_number)
+variable_sentence = "Mi variable de número es: {new_number}"
 print(variable_sentence)
 
 # Exercise 9: Print "hello world"
